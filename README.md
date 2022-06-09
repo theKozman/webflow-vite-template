@@ -125,10 +125,10 @@ npm run clean
 - Після цього скомпільований файл треба десь захостити щоб його можна було підтягнути в вебфлоу
 
 - Є багато хороших варіантів як це можна зробити, деякі з них:
-    1. [Github + jsDeliver](https://gomakethings.com/how-to-turn-any-github-repo-into-a-cdn/)
-    2. [Firebase Hosting](https://firebase.google.com/docs/hosting)
-    3. [Cloudflare](https://www.cloudflare.com/en-gb/)
-    4. [Netlify](https://docs.netlify.com/get-started/)
+    **1.** [Github + jsDeliver](https://gomakethings.com/how-to-turn-any-github-repo-into-a-cdn/)
+    **2.** [Firebase Hosting](https://firebase.google.com/docs/hosting)
+    **3.** [Cloudflare](https://www.cloudflare.com/en-gb/)
+    **4.** [Netlify](https://docs.netlify.com/get-started/)
 
 - Процес деплоя залежить від платформи, більше інформації як це робити можна знайти в їх документаціях
 - Коли файл задеплоєно і він є доступний по посиланню, це посилання потрібно вставити в `PROD_URL` або `TEST_URL` в `webflow-module-loader.js`, для тесту або проду відповідно
