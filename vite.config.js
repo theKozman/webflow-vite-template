@@ -17,6 +17,14 @@ export default defineConfig({
       protocol: 'ws',
     },
   },
+  resolve: {
+    alias: [
+      {
+        find: '@',
+        replacement: fileURLToPath(new URL('./src', import.meta.url)),
+      },
+    ],
+  },
   build: {
     minify: true,
     manifest: true,
